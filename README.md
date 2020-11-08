@@ -1,5 +1,6 @@
-# Generating color-coded scatterplot matrices in matplotlib
+# Generating color-coded scatterplot / cross-correlation matrices in matplotlib
 
+<img width="750" alt="java 8 and prio java 8  array review example" src="https://github.com/johannesuhl/scatterplot_matrix/blob/main/img1.jpg">
 
 ## scatterplot_matrix.py
 This script generates scatterplot matrices for an arbitrary number of data columns, given as a pandas dataframe.
@@ -27,7 +28,7 @@ no transformation:
 
 ## scatterplot_crosscorr_matrix.py
 This script generates combined scatterplot-crosscorrelation matrices for an arbitrary number of data columns, given as a pandas dataframe.
-The user can choose which columns are used for color-coding the scatterplots, in the upper triangle of the matrix, the lower triangle contains the crosscorrelation matrix usign Pearson's correlation coefficient.
+The user can choose which columns are used for color-coding the scatterplots, in the upper triangle of the matrix, the lower triangle contains the crosscorrelation matrix using Pearson's correlation coefficient.
 Moreover, the user can chose a data transformation (Percentiles, standardization, column-wise (0,1) scaling) for the scatterplots.
 
 Exemplary results using the Boston House Prices Dataset (https://scikit-learn.org/stable/datasets/index.html#boston-dataset)
